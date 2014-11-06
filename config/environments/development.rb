@@ -34,4 +34,9 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Custom add
+ 
+  config.assets.debug = true  # for Assets
+  config.action_mailer.perform_deliveries = true # For mailer
 end
